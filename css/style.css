@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Regular.ttf)format('ttf');
+    font-weight: 400;
+  }
+ /* services */
+.serv{
+    position: absolute;
+    width: 1082px;
+    height: 716px;
+    left: 130px;
+    top: 750px;
+    }
+
+.hl2{
+position: absolute;
+width: 580px;
+height: 153px;
+left: 139px;
+top: 750px;
+text-align: left;
+vertical-align: top;
+/* titles/h2 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 51px;
+
+/* main-black */
+color: #050C33;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Drupal-coder-v1.2 */
+.osn{
+position: relative;
+width: 1440px;
+height: 9378px;
+
+background: #FFFFFF;
+}
+.pl2{
+/* Разрабатываем и оптимизируем модули, расширяем функциональность сайтов, обновляем дизайн */
+
+position: absolute;
+width: 493px;
+height: 44px;
+left: 139px;
+top: 921px;
+
+/* text/16px */
+text-align: left;
+vertical-align: top;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+/* main-black */
+color: #050C33;
+
+opacity: 0.7;
+}
+
+.reviews {
+
+position: absolute;
+width: 1440px;
+height: 586px;
+left: 0px;
+top: 7179px;
+
+
+}
+.rev1{
+
+position: absolute;
+width: 180px;
+height: 51px;
+left: 630px;
+top: 0px;
+
+/* titles/h2 */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* main-black */
+color: #050C33;
+}
+
+
+.right-quote-sign {
+
+position: absolute;
+width: 493px;
+height: 493px;
+left: -107px;
+top: -89px;
+
+opacity: 0.04;
+
+}
+.Group {
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.87%;
+bottom: 5.87%;
+}
+
+
+.Vector1{
+
+position: absolute;
+left: 57.04%;
+right: 0%;
+top: 5.87%;
+bottom: 5.87%;
+
+/* main-black */
+background: #050C33;
+
+}
+.Vector2{
+
+position: absolute;
+left: 0%;
+right: 57.04%;
+top: 5.87%;
+bottom: 5.88%;
+
+/* main-black */
+background: #050C33;
+}
+
+.Rectangle32{
+
+position: absolute;
+width: 724px;
+height: 466px;
+left: 358px;
+top: 97px;
+
+background: #FFFFFF;
+opacity: 0.34;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+border-radius: 5px;
+
+}
+.Rectangle31{
+
+position: absolute;
+width: 852px;
+height: 457px;
+left: 294px;
+top: 129px;
+
+background: #FFFFFF;
+opacity: 0.5;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+border-radius: 5px;
+
+}
+.Frame4 {
+
+position: absolute;
+width: 980px;
+height: 416px;
+left: 230px;
+top: 170px;
+
+}
+
+.Rectangle3 {
+
+position: absolute;
+width: 980px;
+height: 416px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+border-radius: 5px;
+
+}
+ /* полоска в слайдере*/
+.Vector3{
+
+position: absolute;
+width: 0px;
+height: 282.5px;
+left: 628.5px;
+top: 67px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+}
+
+.arrow-right{
+
+position: absolute;
+width: 16px;
+height: 32px;
+left: 884px;
+top: 202px;
+
+/* main-black */
+border: 1px solid #050C33;
+
+}
+.arrow-left{
+
+position: absolute;
+width: 16px;
+height: 32px;
+left: 710px;
+top: 202px;
+
+/* main-black */
+border: 1px solid #050C33;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+/*Для количества слайдов*/
+.colet0114{
+
+position: absolute;
+width: 82px;
+height: 28px;
+left: 756px;
+top: 204px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 28px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+
+/* main-black */
+color: #050C33;
+}
+
+
+/* Нуреев Александр, менеджер проекта Winamp*/
+.winamp{
+
+position: absolute;
+width: 380px;
+height: 46px;
+left: 128px;
+top: 282px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* main-black */
+color: #050C33;
+
+opacity: 0.5;
+}
+
+.image65{
+
+position: absolute;
+width: 200px;
+height: 46px;
+left: 128px;
+top: 80px;
+
+background: url(.png);
+
+}
+/*Текс для отзывов*/
+.rev2{
+
+position: absolute;
+width: 440px;
+height: 87px;
+left: 128px;
+top: 167px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-decoration-line: underline;
+
+/* main-black */
+color: #050C33;
+}
