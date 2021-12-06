@@ -57,48 +57,55 @@ $(document).ready(function(){
     });
 
 	$('.partners__slider-1').slick({
+         centerMode: true,
         arrows: false,
         dots: false,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         easing: 'ease',
         autoplay: true,
         pauseOnFocus: true,
         autoplaySpeed: 2500,
         speed: 1500,
+        responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow:3
+				}
+			},
+			{
+				breakpoint: 550,
+				settings: {
+					slidesToShow:1
+				}
+			}
+		]
     });
     $('.partners__slider-2').slick({
+        centerMode: true,
         arrows: false,
         dots: false,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 2,
         easing: 'ease',
         autoplay: true,
         pauseOnFocus: true,
         autoplaySpeed: 2700,
         speed: 2000,
+        responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow:4
+				}
+			},
+			{
+				breakpoint: 550,
+				settings: {
+					slidesToShow:1
+				}
+			}
+		]
     });
-    (function(){
-        const header=document.querySelector('.header');
-        window.onscroll= () => {
-            if(window.pageYOffset>50){
-                header.classList.add('header_active');
-            }
-            else{
-                header.classList.remove('header_active');
-            }
-        };
-    }());
-
-    (function(){
-    const burgerItem=document.querySelector('.burger');
-    const menu=document.querySelector('.header_nav');
-    const menuCloseItem=document.querySelector('.header_nav-close');
-    burgerItem.addEventListener('click',()=>{
-    menu.classList.add('header_nav_active');
-    });
-    menuCloseItem.addEventListener('click',()=>{
-        menu.classList.remove('header_nav_active');
-        });
-    }());
 });

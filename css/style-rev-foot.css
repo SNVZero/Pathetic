@@ -1,3 +1,9 @@
+/*Отзывы */
+.no-gutter > [class*='ontainer-fluid-'] {
+    padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+}
 .reviews {
     padding: 20px;
     width: 100%;
@@ -5,7 +11,7 @@
 }
 
 .reviews__background {
-    position: absolute;
+    position: relative;
     left: 0;
 }
 
@@ -28,6 +34,22 @@
     margin: 0px auto;
     display: flex;
     background-color: white;
+}
+@media screen and (max-width: 991px){
+    .reviews__wrapper{
+        display: block;
+        width: 370px;
+    }
+    .slick-arrow{
+        display: block;
+        align-items: center;
+    }
+    .reviews__comment{
+        width: 284px;
+    }
+    .reviews__slider{
+        width: 100%;
+    }
 }
 
 .reviews__slider {
@@ -114,7 +136,7 @@
 .reviews__wrapper::before {
 
     content: "";
-    position: absolute;
+    position: relative;
     top: -40px;
     bottom: 0;
     left: 64px;
@@ -132,7 +154,7 @@
 
 .reviews__wrapper::after {
     content: "";
-    position: absolute;
+    position: relative;
     top: -72px;
     bottom: 0;
     left: 128px;
@@ -166,9 +188,7 @@
 }
 
 .partners__descr {
-    width: 768px;
-    max-width: 100%;
-    text-align: center;
+    width: 740px;
     margin: 0 auto;
     padding-bottom: 42px;
     font-weight: 500;
@@ -196,7 +216,6 @@
 
 
 /* WEBFORM | ФОРМА */
-
 
 .sitesupport{
 
@@ -229,7 +248,26 @@ color: #FFFFFF;
 
 opacity: 0.7;
 }
+.phonenumber{
 
+width: 263px;
+height: 48px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+display: flex;
+align-items: center;
+
+/* White */
+
+color: #FFFFFF;
+}
 .emaildesc{
 
 width: 203px;
@@ -259,7 +297,6 @@ color: #FFFFFF;
     position: relative;
     color: white;
 }
-/* Добавить медиа для формы и для информации а также доделать футер, переделать слайдеры там хз пока что давай ебош */
 
 .webform__main {
     display: block;
@@ -269,9 +306,8 @@ color: #FFFFFF;
 }
 
 .webform__info {
-    padding-left: 80px ;
-    padding-top: 70px ;
-    width: 100% ;
+    margin: 117px 220px 110px 305px;
+    width: 480px;
 }
 
 .webform__info-descr span {
@@ -288,14 +324,14 @@ color: #FFFFFF;
     margin-bottom: 142px;
 }
 
-.blockfromcontacts{
-
-}
-
 .webform__number {
-    position: relative;
-    display: block;
-    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-style: normal;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
 }
 
 .webform__mail {
@@ -308,23 +344,17 @@ color: #FFFFFF;
 
 .webform__number #phone {
     cursor: pointer;
-    padding-left: 20px;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
+    margin-left: 20px;
 }
 
 .webform__mail #email {
     cursor: pointer;
-    padding-left:  16px;
+    margin-left: 16px;
 }
 
 .webform__form {
-    padding-top: 70px ;
-    padding-left: 120px ;
-    width: 100% ;
+    margin: 125px 305px 110px 130px;
+    width: 480px;
 }
 
 .form__checkbox {
@@ -334,7 +364,7 @@ color: #FFFFFF;
 
 .form__checkbox .checkbox__input {
     appearance: none;
-    position: relative;
+    position: absolute;
 }
 
 .form__checkbox .checkbox__label {
@@ -426,7 +456,7 @@ color: #FFFFFF;
 .webform__form-elem {
     color: white;
     font-size: 14px;
-    width: 100%;
+    width: 480px;
     height: 68px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -460,7 +490,7 @@ color: #FFFFFF;
 .webform__form-btn {
     text-transform: uppercase;
     color: white;
-    width: 100%;
+    width: 480px;
     height: 60px;
     border: 2px solid #f14d34;
     border-radius: 5px;
@@ -486,101 +516,15 @@ footer {
 }
 
 footer .footer__text {
-    padding-left: 150px;
-
-}
-
-.footer__text p {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
-    /* White */
-
     color: #FFFFFF;
-
     opacity: 0.5;
+    margin-left: 265px;
 }
-@media  (max-width: 767px){
-    .reviews__title{
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .reviews__wrapper{
-        width: 100%;
-        padding: 0;
-        display: block;
-    }
-    .reviews__slider{
-        width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    }
-    .reviews__comment{
-        width: 100%;
-    }
-    .reviews__person{
-        width: 100%;
-    }
-    .slick-arrows{
-        text-align: center;
 
-    }
-    .webform .ds__1{
-        left: 20%;
-
-    }
-    .webform .ds__1 img{
-        width: 170px;
-        height: 170px;
-
-    }
-    .webform{
-        height: 100%;
-    }
-    .webform__info {
-        padding-left: 0px ;
-        text-align: justify;
-        padding-top: 30px;
-    }
-    .webform__info-descr span{
-        text-align: center;
-    }
-    .webform__info-descr p{
-        margin-bottom: 20px;
-
-    }
-    .webform__form{
-        padding-left: 0px;
-        padding-bottom: 20px;
-    }
-    .ds__2{
-        display: none;
-    }
-    footer{
-        position: relative;
-        padding: 0;
-        margin-top: 5px;
-    }
-   footer .footer__text{
-        padding-left: 20px;
-    }
-    .slider__item img{
-        height: 100px;
-        width: 100px;
-    }
-    .partners .slider__item{
-        height: 100px;
-    }
-    .partners__title{
-        font-size: 24px;
-    }
-    .partners__descr{
-        font-size: 16px;
-        text-align: left;
-        width: 100%;
-    }
+.footer__text p {
+    margin-bottom: 6px;
 }
