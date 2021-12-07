@@ -82,7 +82,7 @@ width: 100%;
 .header_item:last-child{
     margin-right: 0;
 }
-.header_item{ 
+.header_item{
      margin-right: 15px;
     text-decoration: none;
  padding-left: 0px;
@@ -121,7 +121,9 @@ margin-top: 5px;
     bottom: 0;
 }
 @media screen and (max-width: 767px){/* -- медиа для телефонов (навигация)-- */
-   
+   .header__druplicon{
+       display: none;
+   }
     .header__lang ul li a {
         font-size: 14px;
     }
@@ -139,7 +141,7 @@ margin-top: 5px;
     }
     .header__lang ul li {
         background-color: rgba(2, 1, 12, 0.973);
-      
+
     }
     /* -- бургер -- */
     .header_wrapper{
@@ -193,13 +195,13 @@ transform: translateX(100%)
         right: 0px;
         z-index: 12;
     }
-    .header_nav-close-line{  
+    .header_nav-close-line{
         display: block;
         height: 2px;
         width: 50%;
         background-color: #fff;
         position: absolute;
-     
+
         transform: translateY(-50%);
     }
     .header_nav-close-line:first-child{
@@ -291,20 +293,20 @@ color: #FFFFFF;
 opacity: 0.8;
 }
 .nach-btn{
-    margin-top: 55px; 
+    margin-top: 55px;
     border: 2px solid #F14D34;
     width: 220px;
     height: 60px;
     align-items: center;
 text-align: center;
     border-radius: 5px;
-    margin-left: 120px;
+    margin-left: 25%;
 }
 .nach-btn:hover{cursor: pointer;
     background-color: #F14D34;
 }
 .nach-info{
-    margin-top: 45px;  
+    margin-top: 45px;
     margin-left: 0px;
 }
 .nach-info-wrapper{
@@ -320,7 +322,7 @@ padding-left: 15px;
     line-height: 29px;
     display: flex;
     align-items: center;
-    
+
 }
 .nachone{
     padding-bottom: 0px;
@@ -354,7 +356,7 @@ width: 100%;
 height: 716px;
 z-index: 1;
 }
-.title{ 
+.title{
 font-weight: bold;
 color: #050C33;
 }
@@ -362,7 +364,7 @@ color: #050C33;
    margin-bottom: 10px;
 }
 .o11{
-    font-size: 24px;    
+    font-size: 24px;
 }
 .o{
 height: 44px;
@@ -385,7 +387,7 @@ margin-right: 5px;
     text-align: center;
 }
 .n{
-    margin-top: 50px;   
+    margin-top: 50px;
 }
 .ic-body{
 font-size: 16px;
@@ -407,7 +409,7 @@ filter: drop-shadow(20px 20px 40px rgba(5, 12, 51, 0.05));
 .sup{position:relative;
 height: 230px;
 margin: 5px;
-background-color: #FFFFFF; 
+background-color: #FFFFFF;
 z-index: 3;
 border-radius: 5px;
 }
@@ -482,11 +484,11 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
         left: 0px;
     }
     .ic-col{
-       margin-right: -50px; 
+       margin-right: -50px;
     }
     @media screen and (min-width: 700px) and (orientation: landscape) {
         .head{
-            height: 650px;  
+            height: 650px;
             background-color: rgb(1, 1, 8);
         }
         .nach-title{
@@ -496,14 +498,14 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
             display: flex;
             align-items: center;
             color: #FFFFFF;
-           
+
             }
             .support{
                 margin-top: 243px;
-            }    
+            }
         .sup{border-radius: 5px;
             width: 292px;
-            height: 292px; 
+            height: 292px;
         }
         .supp{
             width: 1184px;
@@ -529,13 +531,13 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
             margin-bottom: 20px;
         }
         .o111{
-            font-size: 42px;    
+            font-size: 42px;
         }
         .o11{font-size: 42px;
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
         .nach-btn{
-            margin-top: 55px; 
+            margin-top: 55px;
             border: 2px solid #F14D34;
             width: 220px;
             height: 60px;
@@ -548,7 +550,7 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
         padding-left: 10px;
         }
         .nach-info{
-            margin-top: 70px;  
+            margin-top: 70px;
             margin-left: 0px;
         }
         .nach-num-one{
@@ -579,8 +581,9 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
             text-align: left;
         }
         .laptop{
-            margin-top: -188px; 
+            margin-top: -188px;
             height: 955px;
+           overflow: hidden;
         }
         .laptop-img{
           margin-top: 25px;
@@ -597,7 +600,7 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
             top: 460px;
             left: 730px;
             width: 700px;
-        } 
+        }
 .video{
     width: 100%;
     max-height: 650px;
@@ -612,4 +615,3 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
 }
 
      }
-    
