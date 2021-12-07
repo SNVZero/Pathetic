@@ -120,97 +120,6 @@ margin-top: 5px;
 .burger_line_third{
     bottom: 0;
 }
-@media screen and (max-width: 767px){/* -- медиа для телефонов (навигация)-- */
-   .header__druplicon{
-       display: none;
-   }
-    .header__lang ul li a {
-        font-size: 14px;
-    }
-    .header__lang {
-        position: relative;
-        width: 100%;
-    }
-    .header__lang ul {
-        position: absolute;
-        top: 30px;
-        padding-top: 15px;
-        display: none;
-        min-width: 60px;
-        left: -15px;
-    }
-    .header__lang ul li {
-        background-color: rgba(2, 1, 12, 0.973);
-
-    }
-    /* -- бургер -- */
-    .header_wrapper{
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
-        height: 35px;
-        display: flex; background-color: rgba(2, 1, 12, 0.973);
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 39px;
-    }
-    .header_burger{display: block;
-    }
-    .header{z-index: 10;}
-    .header_nav{width: 100%;
-        height: 80%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        background-color: rgb(2, 1, 12);
-        z-index: 10;
-transform: translateX(100%)
-
-    }
-    .header_nav_active{
-        transform: translate(0);
-    }
-    .header_item{
-        width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-        left: 0;
-    }
-    .header_link{
-        font-size: 14px;
-        line-height: 33px;
-        margin-bottom: 0px;
-    }
-    .header_list{
-        display:block;
-    }
-    .header_link:last-child{
-        margin-bottom: 0;
-    }
-    .header_nav-close{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 20px;
-        right: 0px;
-        z-index: 12;
-    }
-    .header_nav-close-line{
-        display: block;
-        height: 2px;
-        width: 50%;
-        background-color: #fff;
-        position: absolute;
-
-        transform: translateY(-50%);
-    }
-    .header_nav-close-line:first-child{
-        transform: translateY(-50%) rotate(45deg);
-    }
-    .header_nav-close-line:last-child{
-        transform: translateY(-50%) rotate(-45deg);
-    }
-}
 
 .video_media {
     width: 100%;
@@ -614,4 +523,99 @@ filter: drop-shadow(0px 4px 69px rgba(16, 26, 58, 0.106));
 .header{position: relative;
 }
 
+     }
+
+     @media screen and (max-width: 767px){/* -- медиа для телефонов (навигация)-- */
+        .header__druplicon{
+            display: none;
+        }
+         .header__lang ul li a {
+             font-size: 14px;
+         }
+         .header__lang {
+             position: relative;
+             width: 100%;
+         }
+         .header__lang ul {
+             position: absolute;
+             top: 30px;
+             padding-top: 15px;
+             display: none;
+             min-width: 60px;
+             left: -15px;
+         }
+         .header__lang ul li {
+             background-color: rgba(2, 1, 12, 0.973);
+
+         }
+         /* -- бургер -- */
+         .header_wrapper{
+             margin-left: 0px;
+             margin-right: 0px;
+             width: 100%;
+             height: 35px;
+             display: flex; background-color: rgba(2, 1, 12, 0.973);
+             flex-wrap: wrap;
+             justify-content: space-between;
+             margin-top: 39px;
+         }
+         .header_burger{display: block;
+         }
+         .header{z-index: 9999;}
+         .header_nav{width: 100%;
+             height: 80%;
+             position: fixed;
+             bottom: 0;
+             left: 0;
+             background-color: rgb(2, 1, 12);
+             z-index: 9999;
+     transform: translateX(100%)
+
+         }
+         .header_nav_active{
+             transform: translate(0);
+         }
+         .header_item{
+             width: 100%;
+             margin-right: 0;
+             margin-left: 0;
+             left: 0;
+         }
+         .header_link{
+             font-size: 14px;
+             line-height: 33px;
+             margin-bottom: 0px;
+         }
+         .header_list{
+             display:block;
+         }
+         .header_link:last-child{
+             margin-bottom: 0;
+         }
+         .header_nav-close{
+             width: 40px;
+             height: 40px;
+             position: absolute;
+             top: 20px;
+             right: 0px;
+             z-index: 9999;
+         }
+         .header_nav-close-line{
+             display: block;
+             height: 2px;
+             width: 50%;
+             background-color: #fff;
+             position: absolute;
+
+             transform: translateY(-50%);
+         }
+         .header_nav-close-line:first-child{
+             transform: translateY(-50%) rotate(45deg);
+         }
+         .header_nav-close-line:last-child{
+             transform: translateY(-50%) rotate(-45deg);
+         }
+         .laptop-img-l{
+             width: 100%;
+         }
      }

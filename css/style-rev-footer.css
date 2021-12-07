@@ -509,6 +509,7 @@ footer .footer__text {
     .reviews__title{
         font-size: 24px;
         margin-bottom: 20px;
+        margin-top: 30px;
     }
     .reviews__wrapper{
         width: 100%;
@@ -540,6 +541,7 @@ footer .footer__text {
     }
     .webform{
         height: 100%;
+        margin-top: 20px;
     }
     .webform__info {
         padding-left: 0px ;
@@ -573,10 +575,12 @@ footer .footer__text {
         width: 100px;
     }
     .partners .slider__item{
+        overflow: hidden;
         height: 100px;
     }
     .partners__title{
         font-size: 24px;
+        margin: 0px;
     }
     .partners__descr{
         font-size: 16px;
