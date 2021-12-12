@@ -79,7 +79,11 @@
 }
 
 .slick__arrows {
-    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 36%;
+    float: left;
+    justify-content: center;
     display: flex;
 }
 
@@ -153,7 +157,7 @@
 
 .partners {
     overflow: hidden;
-    padding: 50px;
+
 }
 
 .partners__title {
@@ -184,74 +188,42 @@
 }
 
 .partners .partners__slider-1 {
-    margin: 10px 0px;
+    padding: 0px 15%;
+    overflow: hidden;
+}
+
+.partners .partners__slider-2{
+    padding: 0px 10%;
+    overflow: hidden;
 }
 
 .partners .slider__item {
-    height: 155px;
     border: 1px solid #E5E5E5;
     border-radius: 5px;
-    margin: 0px 10px;
+    margin: 5px;
+
+}
+.slider__item img{
+    width: 192px;
+    height: 100px;
+}
+.partners .slick-track{
+
+    overflow: hidden;
+}
+
+.slick-list{
+    margin: 0px;
+    overflow: visible;
 }
 
 
 /* WEBFORM | ФОРМА */
 
 
-.sitesupport{
 
-    width: 480px;
-    height: 102px;
-
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 51px;
-
-    color: #FFFFFF;
-}
-.sitesupportdesck{
-
-width: 480px;
-height: 88px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-/* or 157% */
-
-
-color: #FFFFFF;
-
-opacity: 0.7;
-}
-
-.emaildesc{
-
-width: 203px;
-height: 27px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 150%;
-/* identical to box height, or 27px */
-
-display: flex;
-align-items: center;
-text-decoration-line: underline;
-
-/* White */
-
-color: #FFFFFF;
-}
 .webform {
-    margin-top: 160px;
+    margin-top: 100px;
     background:
         linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
             rgba(255, 255, 255, 0) 69.04%), #040613;
@@ -269,27 +241,26 @@ color: #FFFFFF;
 }
 
 .webform__info {
-    padding-left: 80px ;
+    padding-left: 10px ;
     padding-top: 70px ;
     width: 100% ;
 }
 
-.webform__info-descr span {
-    font-size: 42px;
+
+
+.webform__blockfromtitle{
     font-weight: bold;
-    line-height: 51px;
-    margin-bottom: 19px;
+    font-size: 42px;
+    line-height: 1.215;
+    margin-bottom: 20px;
 }
 
-.webform__info-descr p {
-    opacity: 0.7;
+.webform__blockfromdescription{
+    line-height: 1.55;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 142px;
-}
-
-.blockfromcontacts{
-
+    color: rgba(256,256,256,.7);
+    margin-bottom: 140px;
 }
 
 .webform__number {
@@ -317,14 +288,20 @@ color: #FFFFFF;
 }
 
 .webform__mail #email {
-    cursor: pointer;
-    padding-left:  16px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    line-height: 1.1;
 }
 
 .webform__form {
     padding-top: 70px ;
-    padding-left: 120px ;
-    width: 100% ;
+    padding-left: 40px ;
+    margin-left: auto;
 }
 
 .form__checkbox {
@@ -412,7 +389,7 @@ color: #FFFFFF;
 .webform .ds__1 {
     z-index: 1;
     position: absolute;
-    left: 45%;
+    left: 36%;
 }
 
 .webform .ds__2 {
@@ -423,18 +400,27 @@ color: #FFFFFF;
     bottom: 0;
 }
 
+
+
 .webform__form-elem {
-    color: white;
+    background: transparent;
+    border: 1px solid rgba(256,256,256,.3);
+
+    line-height: 1.2;
+    font-weight: 500;
+    padding: 26px 24px;
+    color: #fff;
+
     font-size: 14px;
-    width: 100%;
-    height: 68px;
+    width: 480px;
+    height: 54px;
     border-radius: 5px;
     box-sizing: border-box;
     padding-left: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: none;
+
     margin-bottom: 8px;
     transition: 0.4s;
+    margin-left: auto;
 }
 
 .webform__form-elem::placeholder {
@@ -460,7 +446,7 @@ color: #FFFFFF;
 .webform__form-btn {
     text-transform: uppercase;
     color: white;
-    width: 100%;
+    width: 480px;
     height: 60px;
     border: 2px solid #f14d34;
     border-radius: 5px;
@@ -486,8 +472,53 @@ footer {
 }
 
 footer .footer__text {
-    padding-left: 150px;
+margin-top: 56px;
 
+}
+
+.social-links{
+    margin-bottom: 15px;
+}
+
+.social--links-wrapper{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.social-links-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links-item a {
+    border: 2px solid #f14d34;
+    background: #f14d34;
+    border-radius: 5px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: background 300ms;
+}
+
+.fa-facebook-f ::before{
+    content: "\f39e";
+}
+
+.fa-vk::before{
+    content: "\f189";
+}
+
+.fa-telegram-plane ::before{
+    content: "\f3fe";
+}
+
+.fa-youtube ::before{
+    content: "\f167";
 }
 
 .footer__text p {
@@ -506,6 +537,13 @@ footer .footer__text {
     opacity: 0.5;
 }
 @media  (max-width: 767px){
+    .team{
+        margin-bottom: 20px;
+    }
+    .reviews{
+        background: url(../img/right-quote-sign.svg) no-repeat left top;
+        background-size: 120px 100px;
+    }
     .reviews__title{
         font-size: 24px;
         margin-bottom: 20px;
@@ -516,9 +554,27 @@ footer .footer__text {
         padding: 0;
         display: block;
     }
+    .reviews__wrapper::after{
+        left: 40px;
+        right: 40px;
+    }
+    .reviews__wrapper::before{
+        left: 20px;
+        right: 20px;
+    }
     .reviews__slider{
+       width: 100%;
+        float: none;
+        border-bottom: 1px solid #cdcdcd;
+        display: block;
+        padding: 20px 15px;
+
+    }
+    .slick__arrows{
         width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        float:none ;
+        padding: 20px 15px;
+
     }
     .reviews__comment{
         width: 100%;
@@ -559,6 +615,12 @@ footer .footer__text {
         padding-left: 0px;
         padding-bottom: 20px;
     }
+    .webform__form-elem{
+        width: 100%;
+    }
+    .webform__form-btn {
+        width: 100%;
+    }
     .ds__2{
         display: none;
     }
@@ -571,8 +633,8 @@ footer .footer__text {
         padding-left: 20px;
     }
     .slider__item img{
-        height: 100px;
-        width: 100px;
+        height: 74 px;
+        width: 129px;
     }
     .partners .slider__item{
         overflow: hidden;
@@ -587,4 +649,14 @@ footer .footer__text {
         text-align: left;
         width: 100%;
     }
+}
+@media (max-width: 600px){
+.webform__blockfromtitle{
+    font-size: 22px;
+    text-align: center;
+}
+
+.webform__blockfromdescription{
+    margin-bottom: 30px;
+}
 }

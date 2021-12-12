@@ -32,7 +32,7 @@ menuCloseItem.addEventListener('click',()=>{
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow:4
+					slidesToShow:2
 				}
 			},
 			{
@@ -44,19 +44,6 @@ menuCloseItem.addEventListener('click',()=>{
 		]
 	});
 
-	$("#slider").owlCarousel({
-	items: 1,
-	loop: true,
-	nav: true,
-	dots: false,
-	smartSpeed: 700,
-	animateOut:  'slideOutDown' ,
-	animateIn:  'slideOutDown' ,
-	slideSpeed : 1000,
-    singleItem : true,
-
-
-	});
 
 
 	$('.reviews__slider').on(`init reInit`, function (event, slick) {
@@ -83,24 +70,30 @@ menuCloseItem.addEventListener('click',()=>{
          centerMode: true,
         arrows: false,
         dots: false,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         easing: 'ease',
-        autoplay: true,
+        autoplay: false,
         pauseOnFocus: true,
         autoplaySpeed: 2500,
         speed: 1500,
         responsive:[
 			{
+				breakpoint: 1100,
+				settings:{
+					slidesToShow:2
+				}
+			},
+			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow:3
+					slidesToShow: 1
 				}
 			},
 			{
 				breakpoint: 550,
 				settings: {
-					slidesToShow:1
+					slidesToShow: 1
 				}
 			}
 		]
@@ -109,24 +102,31 @@ menuCloseItem.addEventListener('click',()=>{
         centerMode: true,
         arrows: false,
         dots: false,
-        slidesToShow: 5,
-        slidesToScroll: 2,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         easing: 'ease',
-        autoplay: true,
+        autoplay: false,
         pauseOnFocus: true,
         autoplaySpeed: 2700,
         speed: 2000,
         responsive:[
 			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow:4
+				breakpoint: 1100,
+				settings:{
+					slidesToShow:2
 				}
 			},
 			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1
+				}
+			},
+
+			{
 				breakpoint: 550,
 				settings: {
-					slidesToShow:1
+					slidesToShow: 1
 				}
 			}
 		]
