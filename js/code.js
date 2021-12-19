@@ -65,6 +65,7 @@ wrap.classList.toggle('opened')
 });
 
 }());
+
 	$('.slider').slick({
 
 		slidesToShow:5,
@@ -183,5 +184,39 @@ wrap.classList.toggle('opened')
 		$(this).next().slideToggle(300); //.toggleClass('active')
 		$(this).parent().toggleClass('active');
 		});
+
+
+		let checkbox = document.querySelector('.checkbox__input');
+		$(function(){
+			checkbox.addEventListener('click',()=>{
+				checkbox.classList.toggle('checked');
+			})
+
+		})
+
+		$(function(){
+			$(".ajaxForm").submit(function(e){
+				e.preventDefault();
+				var href = $(this).attr("action");
+				$.ajax({
+					type: "POST",
+					dataType: "json",
+					url: href,
+					data: $(this).serialize(),
+					success: function(response){
+						if((response.status == "success")&&(checkbox.classList.contains('checked'))){
+							alert("We received your submission, thank you!");
+						}else if(!checkbox.classList.contains('checked')){
+							alert('checkbox is not checked')
+						}
+						else {
+							alert("An error occured: " + response.message);
+						}
+					}
+				});
+			});
+	});
+
+
 
 });

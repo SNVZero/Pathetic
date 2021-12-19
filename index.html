@@ -7,7 +7,7 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
             <link rel="stylesheet" href="css/style-head-exp.css">
             <link rel="stylesheet" href="css/style-rev-footer.css">
-            <link rel="stylesheet" href="css/style--team.css">
+            <link rel="stylesheet" href="css/style-traff-team.css">
             <link rel="stylesheet" href="css/all.css">
         </head>
         <body>
@@ -59,7 +59,7 @@
         <li class="textovosn header_item headerB header__lang B"><a href="#" class="header_link">О нас</a>
           <span class="menu__arrow arrow2"></span>
           <ul class="sub-menu__list">
-            <li class="textovosn header_item"><a href="#" >Команда</a>
+            <li class="textovosn header_item"><a href="#team" >Команда</a>
             </li>
             <li class="textovosn header_item"><a href="#">Drupalgive </a>
             </li>
@@ -72,7 +72,7 @@
             </ul>
            </li>
         <li class="textovosn header_item headerB-o"><a href="#" class="header_link">Проекты</a> </li>
-        <li class="textovosn header_item headerB-o"><a href="#" class="header_link">Контакты</a> </li>
+        <li class="textovosn header_item headerB-o"><a href="#contacts" class="header_link">Контакты</a> </li>
                   </ul>
 
                 </nav>
@@ -95,7 +95,7 @@
                 на CMS Drupal любых версий и запущенности
               </div>
               <div class="nach-btn">
-                <a href="#" class="btn textovosn nach-btn-osn ">Тарифы</a>
+                <a href="#tarifs" class="btn textovosn nach-btn-osn ">Тарифы</a>
               </div>
             </div>
             <div class="col-md-6">
@@ -442,89 +442,204 @@
                </div>
       </div>
 
-        <div class="team">
-          <div class="container">
-            <div class="team__title">
-              <span>
-                Команда
-              </span>
+      <div class="wrapper-tarifs" >
+        <div class="container">
+            <div class="tarifs" id="tarifs">
+                <div class="row text-center">
+                    <h2>Тарифы</h2>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12 col-lg-4 t1">
+                        <div class = "tarif1">
+                            <h2 class="orange">Стартовый</h2>
+                            <hr><br>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Неиспользованные оплаченные часы переносятся на следующий месяц</li>
+                                <li>Предоплата от 6 000 рублей в месяц</li>
+                            </ul>
+                            <div class="col-12 text-center">
+                                <button class="contact-button" onClick='location.href="#form"'>
+                                    СВЯЖИТЕСЬ С НАМИ!
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class = "tarif2">
+                            <h2 class="orange">Бизнес</h2>
+                            <hr><br>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Высокое время реакции - до 2 рабочих дней</li>
+                                <li>Неиспользованные оплаченные часы не переносятся</li>
+                                <li>Предоплата от 30 000 рублей в месяц</li>
+                            </ul>
+                            <div class="col-12 text-center">
+                                <button class="contact-button" onClick='location.href="#form"'>
+                                    СВЯЖИТЕСЬ С НАМИ!
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class = "tarif3">
+                            <h2 class="orange">VIP</h2>
+                            <hr><br>
+                            <ul>
+                                <li>Консультации и работы по SEO</li>
+                                <li>Услуги дизайнера</li>
+                                <li>Максимальное время реакции - в день обращения</li>
+                                <li>Неиспользованные оплаченные часы не переносятся</li>
+                                <li>Предоплата от 270 000 в месяц</li>
+                            </ul>
+                            <div class="col-12 text-center">
+                                <button class="contact-button" onClick='location.href="#form"'>
+                                    СВЯЖИТЕСЬ С НАМИ!
+                                </button>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="text-center">
+                    <p>Вам не подходят наши тарифы? Оставьте заявку и мы <br> предложим вам индивидуальные условия!</p>
+                    <a href="#">ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a>
+                </div>
             </div>
-            <div class="row">
-              <div class="team__list">
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6 views-row ">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Sergej-Sinica.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Сергей Синица</div>
-                      <div class="team__descr-position">Руководитель отдела веб-разработки, канд. техн. наук, заместитель
-                          директора</div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6 views-row">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Roman-Agabekov.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Роман Агабеков</div>
-                      <div class="team__descr-position">Руководитель отдела DevOPS, директор</div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6  views-row">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Aleksej-Sinica.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Алексей Синица</div>
-                      <div class="team__descr-position">Руководитель отдела поддержки сайтов</div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6  views-row">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Darya-Bochkaryova.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Дарья Бочкарёва</div>
-                      <div class="team__descr-position">Руководитель отдела продвижения, контекстной рекламы и
-                          контент-поддержки
-                          сайтов</div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6  views-row">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Irina-Torkunova.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Ирина Торкунова</div>
-                      <div class="team__descr-position">Менеджер по работе с клиентами</div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6 col-xs-6  views-row">
-                  <div class="team__list-item">
-                    <div class="team__photo">
-                      <img src="img/Aleksandr-Dolzhenkov.jpg" alt="сотрудник">
-                  </div>
-                  <div class="team__descr">
-                      <div class="team__descr-name">Александр Долженков</div>
-                      <div class="team__descr-position">Web-разработчик</div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="team__btn">ВСЯ КОМАНДА</button>
         </div>
+    </div>
+    <div class="wrapper-main">
+        <div class="container">
+            <div class="task-time">
+                <h2>Наши профессиональные разработчики <br> выполняют быстро любые задачи</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 centered">
+                        <div class="pic">
+                            <img src="img/competency-20.svg" alt="pic">
+                        </div>
+                        <h1>oт 1ч</h1>
+                        <p class="text">Настройка события GA <br> в интернет-магазине</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="pic">
+                            <img src="img/competency-21.svg" alt="pic">
+                        </div>
+                        <h1>oт 20ч</h1>
+                        <p>Разработка мобильной <br> версии сайта</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="pic">
+                            <img src="img/competency-22.svg" alt="pic">
+                        </div>
+                        <h1>oт 8ч</h1>
+                        <p>Интеграции <br> модуля оплаты</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-main">
+        <div class="container">
+            <div class="team" id="team">
+                <div class="row text-center">
+                    <h2>Команда</h2>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-4 item">
+                        <img src="img/Sergej-Sinica.jpg" alt="pic" class="pic">
+                        <h3>Сергей Синица</h3>
+                        <p>Руководитель отдела веб-разработки, канд. техн. наук, заместитель директора</p>
+                    </div>
+                    <div class="col-6 col-lg-4 item">
+                        <img src="img/Roman-Agabekov.jpg" alt="pic" class="pic">
+                        <h3>Роман Агабеков</h3>
+                        <p>Руководитель отдела DevOPS, директор</p>
+                    </div>
+                    <div class="col-6 col-lg-4 item">
+                        <img src="img/Aleksej-Sinica.jpg" alt="pic" class="pic">
+                        <h3>Алексей Синица</h3>
+                        <p>Руководитель отдела поддержки сайтов</p>
+                    </div>
+                    <div class="col-6 col-lg-4 item">
+                        <img src="img/Darya-Bochkaryova.jpg" alt="pic" class="pic">
+                        <h3>Дарья Бочкарёва</h3>
+                        <p>Руководитель отдела продвижения, контекстной рекламы и контент-поддержки сайтов</p>
+                    </div>
+                    <div class="col-6 col-lg-4 item">
+                        <img src="img/Irina-Torkunova.jpg" alt="pic" class="pic">
+                        <h3>Ирина Торкунова</h3>
+                        <p>Менеджер по работе с клиентами</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button>ВСЯ КОМАНДА</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-main">
+        <div class="container">
+            <div class="cases">
+                <div class="row text-center">
+                    <h2>Последние кейсы</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="item">
+                            <img src="img/case1.jpg" alt="pic" class="pic">
+                            <div class="p">
+                                <h4>Настройка кэширования данных. Апгрейд Сервера. Ускорение работы сайта в 30 раз!</h4>
+                                <p class="data">04.05.2020</p>
+                                <p>Влияние скорости загрузки страниц сайта на отказы и конверсии. Кейс ускорения...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-8 mb-4">
+                        <div class="elem1">
+                            <div class="content">
+                                <h4>Использование отчетов <br> Ecommerce в Яндекс.Метрике</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="elem2">
+                            <div class="content">
+                                <h4>Повышение конверсии страницы с формой заявки с применением AB-тестирования</h4>
+                                <p class="data">24.01.2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="elem3">
+                            <div class="content">
+                                <h4>Drupal 7: ускорение времени генерации страниц интернет-магазина на 32%</h4>
+                                <p class="data">23.09.2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="item">
+                            <img src="img/case5.png" alt="pic" class="pic">
+                            <div class="p">
+                                <h4>Обмен товарами и заказами интернет-магазинов на Drupal 7 c 1C:Предприятие, МойСклад, Класс365</h4>
+                                <p class="data">22.08.2019</p>
+                                <p class="text">Опубликован <a href="#">релиз модуля...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
               <div class="reviews">
@@ -905,7 +1020,7 @@
 
                                 </div>
                                 <div class="blockfromcontacts">
-                                    <div class="webform__number">
+                                    <div class="webform__number" id="contacts">
                                         <img src="img/phone.svg" alt="">
                                         <a id="phone"  href="tel:8800222-26-73">8 800 222-26-73</a>
                                     </div>
@@ -918,7 +1033,7 @@
                         </div>
                         <div class="col-lg-6 col-sm-6 col-md-6 col-12 col-xs-12 justify-content-end">
                             <div class="webform__form">
-                                <form action="">
+                              <form class="ajaxForm" action="https://formcarry.com/s/y_1G4237Ix0" accept-charset="UTF-8" >
                                     <div>
                                         <input class="webform__form-elem" id="name" type="text" name="name" required
                                             placeholder="Ваше имя">
@@ -932,17 +1047,15 @@
                                                 placeholder="E-mail">
                                         </div>
                                         <div>
-                                            <input id="comment" class="webform__form-elem" type="text" placeholder="Ваш комментарий" />
+                                            <input id="comment" class="webform__form-elem" type="text" name="name" placeholder="Ваш комментарий" />
                                         </div>
                                         <div class="form__checkbox">
-                                          <label class="checkbox__label" for="userAgreement">Отправляя заявку, я даю согласие на
-                                              <a>обработку своих персональных данных</a>.<span>*</span>
                                               <input class="checkbox__input" type="checkbox" id="userAgreement">
-                                          </label>
+                                              <label class="checkbox__label" for="userAgreement">Отправляя заявку, я даю согласие на   <a>обработку своих персональных данных</a>.<span>*</span>   </label>
                                         </div>
 
                                         <div>
-                                            <input class="webform__form-btn" type="button" value="ОСТАВИТЬ ЗАЯВКУ!">
+                                            <input class="webform__form-btn" type="submit" value="ОСТАВИТЬ ЗАЯВКУ!">
                                         </div>
                                     </form>
                             </div>
@@ -992,13 +1105,14 @@
 
 
 
-
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
             <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
             <script src="js/owl.carousel.min.js"></script>
             <script src="js/slick.min.js"></script>
             <script src="js/code.js"></script>
+
 
 
         </body>

@@ -402,7 +402,7 @@
 
 .form__checkbox .checkbox__input {
     appearance: none;
-    position: relative;
+    position: absolute;
 }
 
 .form__checkbox .checkbox__label {
