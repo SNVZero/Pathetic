@@ -40,6 +40,32 @@ $(document).ready(function(){
 
 	}else{
 		body.classList.add('desctop');
+		let arrow =	document.querySelectorAll('.arrow');
+		for(i=0;i<arrow.length;i++){
+			let thisLink = arrow[i].previousElementSibling;
+			let subMenu = arrow[i].nextElementSibling;
+			let thisArrow = arrow[i];
+			const head__lang = document.querySelector('.A');
+			thisLink.classList.add('parent');
+			arrow[i].addEventListener('click',function(){
+				head__lang.classList.toggle('active');
+				subMenu.classList.toggle('open');
+				thisArrow.classList.toggle('active');
+			})
+		}
+		let arrow_2 = document.querySelectorAll('.arrow2');
+		for(i=0;i<arrow_2.length;i++){
+			let thisLink_2 = arrow_2[i].previousElementSibling;
+			let subMenu_2 = arrow_2[i].nextElementSibling;
+			let thisArrow_2 = arrow_2[i];
+			const head_lang_2 = document.querySelector('.B');
+			thisLink_2.classList.add('parent');
+			arrow_2[i].addEventListener('click',function(){
+				head_lang_2.classList.toggle('active');
+				subMenu_2.classList.toggle('open');
+				thisArrow_2.classList.toggle('active');
+			})
+		}
 	}
 
 	(function(){
