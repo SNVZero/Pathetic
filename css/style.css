@@ -93,12 +93,16 @@ menu a{
 font-size: 15px;
 padding-left: 15px;
 margin-left: 10px;
-align-items: flex-end;
+align-items: flex-end; 
+
+}
+.header_item a{
+    transition: all 0.5s;
 }
 .header_item a:hover{
     padding-bottom: 5px;
     border-bottom:3px solid #f14d34;
-    transition: all 0.5s;
+   
 }
 .header__lang {
     z-index: 5;
@@ -118,19 +122,22 @@ align-items: flex-end;
     display: none;
     min-width: 60px;
     left: -15px;
+    transition: all 1.5s;
 }
 
 .header__lang ul li {
     background: #F14D34;
     width: 200px;
     height: 30px;
+    transition: all 0.7s;
 }
-
+.header__lang ul li:hover{
+     background: #942e1f;
+}
 .header__lang ul li a {
     padding: 10px;
     text-transform: none;
     font-size: 14px;
-
 }
 
 .header__lang:hover>ul {
