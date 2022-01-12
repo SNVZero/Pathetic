@@ -758,4 +758,219 @@ transform: translateY(100%)
         transform: translateY(-50%) rotate(-45deg);
     }
 }
-    
+.team{
+    padding: 45px 16px;
+}
+.team h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.team h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.team p{
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.team .pic{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.team row{
+    width: 100%;
+}
+.team .item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.team button{
+    font-size: 12px;
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 190, 190);
+    outline: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+/* team */
+
+
+/* cases */
+
+.cases{
+    padding: 15px;
+    font-weight: 500;
+}
+.cases h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.cases .pic{
+    height: 120px;
+    border-radius: 5px;
+}
+.cases p{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.cases .elem1, .cases .elem2, .cases .elem3{
+    position: relative;
+    height: 220px;
+    color: white;
+    border-radius: 5px;
+}
+.cases .elem1{
+    background-image: url(../img/case2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cases .elem2{
+    background-image: url(../img/case3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cases .elem3{
+    background-image: url(../img/case4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cases .content{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    right: 10px;
+}
+.cases .item .pic{
+    margin-bottom: 15px;
+}
+.cases .item .p{
+    padding: 0px 10px;
+}
+.cases .item .p p{
+    margin-top: 5px;
+}
+.cases .data{
+    font-weight: 300;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+.cases h4{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.cases a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.cases .item .data{
+    margin-bottom: 20px;
+}
+
+/* cases */
+
+
+
+    /*styles for desktop*/
+
+@media screen and (min-width: 767px) {
+
+    /* tarifs */
+    .wrapper-tarifs{
+        padding-bottom: 100px;
+        background-size: 1100px;
+    }
+    .tarifs h2{
+        font-size: 42px;
+    }
+    .tarifs li{
+        font-size: 17px;
+    }
+
+    /* tarifs */
+
+
+    /* task-time */
+
+    .task-time{
+        padding-top: 170px;
+    }
+    .task-time .row > div{
+        margin-left: 0px;
+    }
+    .task-time h1{
+        text-align: justify;
+    }
+    .task-time h2{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .task-time p{
+        font-size: 16px;
+    }
+
+    /* task-time */
+
+
+    /* team */
+    .team{
+        padding-top: 150px;
+    }
+    .team h2{
+        font-size: 42px;
+    }
+    .team p{
+        font-size: 16px;
+    }
+    .team .item{
+        padding-left: 75px;
+        padding-right: 75px;
+        margin-top: 65px;
+    }
+    .team button{
+        width: 250px;
+        height: 60px;
+        margin-top: 40px;
+    }
+
+    /* team */
+
+
+    /* cases */
+    .cases .elem1, .cases .elem2, .cases .elem3{
+        height: 430px;
+    }
+    .cases h2{
+        font-size: 42px;
+
+        margin-bottom: 40px;
+    }
+    .cases h4{
+        font-size: 18px;
+    }
+    .cases .pic{
+        height: 180px;
+    }
+    .cases .item .p{
+        padding-top: 30px;
+    }
+    .cases p{
+        font-size: 14px;
+    }
+    /* cases */
+ 
+}
+
+@media screen and (min-width: 1240px) {
+
+    .tarifs{
+        padding-top: 150px;
+    }
+}
