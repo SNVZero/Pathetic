@@ -119,7 +119,8 @@ align-items: flex-end;
     position: absolute;
     top: 10px;
     padding-top: 15px;
-    display: none;
+    /*display: none;*/
+    opacity: 0;
     min-width: 60px;
     left: -15px;
     transition: all 1.5s;
@@ -141,7 +142,8 @@ align-items: flex-end;
 }
 
 .header__lang:hover>ul {
-    display: block;
+  /*  display: block;*/
+    opacity: 1;
     z-index: 5;
 }
 li {
