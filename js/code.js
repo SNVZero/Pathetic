@@ -1,5 +1,5 @@
 $('.slider').slick({
-
+    
     slidesToShow:5,
     autoplay:true,
     speed:2000,
@@ -21,7 +21,6 @@ $('.slider').slick({
 });
 
 
-
 $('.reviews__slider').on(`init reInit`, function (event, slick) {
     $('.slick-slide-num-current').text('0' + 1 + ' '); // ' / ' + '0' + slick.slideCount
 })
@@ -41,6 +40,7 @@ $('.reviews__slider').slick({
     nextArrow: '<span class="slick-next">></span>'
 
 });
+
 
 $('.partners__slider-1').slick({
      centerMode: true,
@@ -74,6 +74,7 @@ $('.partners__slider-1').slick({
         }
     ]
 });
+
 $('.partners__slider-2').slick({
     centerMode: true,
     arrows: false,
@@ -107,6 +108,7 @@ $('.partners__slider-2').slick({
         }
     ]
 });
+
 
 $('.faq__title').click(function(event) {
     if($('.faq-field').hasClass('one')){
