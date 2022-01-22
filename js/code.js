@@ -118,7 +118,6 @@ $('.faq__title').click(function(event) {
     $(this).parent().toggleClass('active');
     });
 
-
     let checkbox = document.querySelector('.checkbox__input');
     $(function(){
         checkbox.addEventListener('click',()=>{
