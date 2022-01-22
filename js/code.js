@@ -109,6 +109,7 @@ $('.partners__slider-2').slick({
     ]
 });
 
+
 $('.faq__title').click(function(event) {
     if($('.faq-field').hasClass('one')){
         $('.faq__title').not($(this)).parent().removeClass('active');
